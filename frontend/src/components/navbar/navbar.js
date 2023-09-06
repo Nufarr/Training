@@ -15,6 +15,7 @@ export default function NavbarComponent() {
                 </Nav>
                 <Nav>
                     <Nav.Link href="/">Example 3</Nav.Link>
+                    <Nav.Link href="/myprofile">My Profile</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

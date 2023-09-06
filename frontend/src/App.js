@@ -8,6 +8,9 @@ import DemoPage from './pages/demoPage/demoPage';
 // Import Navbar component
 import NavbarComponent from "./components/navbar/navbar";
 
+// Import MyProfile page
+import MyProfile from "./pages/myprofile/myprofile";
+import MyButton from "./pages/myprofile/Button";
 // Import CSS file
 import './App.css';
 
@@ -19,6 +22,8 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<DefaultHome/>}></Route>
                     <Route path="/demopage" element={<DemoPage/>}></Route>
+                    <Route path="/myprofile" element={<MyProfile/>}></Route>
+                    <Route path="/Surprise" element={<MyButton/>}></Route>
                 </Routes>
             </Router>
         </div>
