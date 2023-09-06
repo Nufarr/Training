@@ -13,3 +13,7 @@
 }
 
 
+.box {
+    align-self: center;
+    justify-content: center;
+}
